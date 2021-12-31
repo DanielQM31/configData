@@ -18,6 +18,6 @@ spring:
           predicates:
             - Path=/clients/**
         - id: account-service
-            uri: lb://account-service
-            predicates:
-              - Path=/accounts/**
+          uri: lb://account-service
+          predicates:
+            - Path=/accounts/**
