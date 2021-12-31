@@ -19,6 +19,6 @@ spring:
             - Path=/clients/**
 
         - id: account-service
-          uri: lb://account-service
+          uri: http://localhost:8012/
           predicates:
             - Path=/accounts/**
