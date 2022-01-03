@@ -23,22 +23,4 @@ spring:
           predicates:
             - Path=/accounts/**
 
-        - id: assignment-service
-          uri: http://localhost:8013/
-          predicates:
-            - Path=/assignments/**
-
-        - id: credit-service
-          uri: http://localhost:8014/
-          predicates:
-            - Path=/credits/**
-
-        - id: yanki-service
-          uri: http://localhost:8015/
-          predicates:
-            - Path=/yanki/**
-
-        - id: bootcoin-service
-          uri: http://localhost:8016/
-          predicates:
-            - Path=/bootcoin/**
+        
